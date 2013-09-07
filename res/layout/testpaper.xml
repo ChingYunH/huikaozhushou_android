@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:orientation="vertical" >
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="15dp">
+			<Button android:id="@+id/t_Finish" android:text="@string/tFinish"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="15dp" />
+			<Button android:id="@+id/t_Abort" android:text="@string/tAbort"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:layout_centerHorizontal="true" />
+			<TextView android:id="@+id/t_CurrentProblem"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true" 
+				android:textColor="@color/b_blue"
+				android:textSize="15sp"
+				android:layout_marginRight="15dp"/>
+		</RelativeLayout>
+		<TextView android:id="@+id/t_Des" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:textColor="@color/black"
+			android:textSize="17sp"
+			android:gravity="center_vertical"
+			android:layout_marginLeft="15dp"
+			android:layout_marginRight="15dp"
+			android:minHeight="130dp" />
+		<RadioGroup android:id="@+id/t_RGroup"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<RadioButton android:id="@+id/t_R1" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+			<RadioButton android:id="@+id/t_R2" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+			<RadioButton android:id="@+id/t_R3" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+			<RadioButton android:id="@+id/t_R4" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+		</RadioGroup>
+		<TextView android:text=" " android:textSize="20sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:visibility="invisible"></TextView>
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<Button android:id="@+id/t_Next" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/tNext"
+				android:layout_alignParentRight="true" />
+			<Button android:id="@+id/t_Previous" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/tPrevious"
+				android:layout_alignParentLeft="true" />
+		</RelativeLayout>
+		<TextView android:text="" android:textSize="20sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:visibility="invisible"></TextView>
+	</LinearLayout>
+</ScrollView>

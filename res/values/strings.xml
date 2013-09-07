@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects">  
+        <item>信息</item>   
+        <item>地理</item>  
+        <item>历史</item>  
+        <item>生物</item>  
+    </string-array> 
+    <string name="app_name">会考助手</string>
+    <string name="mHello">请选择功能/科目：</string>
+    <string name="mB1">选择题测试</string>
+    <string name="mLoading">请稍后..正在载入数据。</string>
+    <string name="tFinish">--完成--</string>
+    <string name="tAbort">--放弃--</string>
+    <string name="tPrevious">----上一题----</string>
+    <string name="tNext">----下一题----</string>
+    <string name="tAbortTip">已放弃本次测试。</string>
+    <string name="tRightAns">正确答案：</string>
+    <string name="tYourAns">你的答案：</string>
+    <string name="rTitle">测试结果</string>
+    <string name="rCorrectRatio">正确率：</string>
+    <string name="rWrongTip">以下为错题：</string>
+    <string name="rGoodWork">继续努力喔！~ </string>
+    <string name="rAllCorrect">恭喜你！ 你全部答对了！</string>
+    <string name="mB2">知识点复习</string>
+    <string name="bTitle">问题浏览</string>
+    <string name="bView">-查看-</string>
+    <string name="bPageNum">页码：</string>
+    <string name="bDialogTitle">问题</string>
+    <string name="mB3">关于本应用</string>
+    <string name="bPlus">后一题</string>
+    <string name="bMinus">前一题</string>
+    <string name="mDateDiff">距离生物会考还有</string>
+    <string name="mDateDay">天，加油！</string>
+    <string name="aTitle">关于本应用</string>
+    <string name="aDescription">本应用是[会考助手]项目的一部分。欢迎关注人人网[会考助手]公共主页。如部分内容侵犯了您的版权，或者您希望联系我们，请发送邮件至huikaozhushou@gmail.com。</string>
+    <string name="aVer">2013 第一版 Build 20130618</string>
+    <string name="aLicense">本应用使用了Neil Davies编写的GalleryFlow效果。根据Apache License 2.0开源协议，特此声明。有关协议详细信息，请参见http://www.apache.org/licenses/LICENSE-2.0.html。</string>
+    <string name="mSupport">媒体支持：萌动60分</string>
+    <string name="mSupportDetail1">萌动60分 高中生的广播秀</string>
+    <string name="mSupportDetail2">FM107.2每周六日晚8点到9点播出</string>
+    <string name="mSupportDetail3">人人网公共主页：http://page.renren.com/m60 </string>
+    <string name="bShow">显示答案</string>
+    <string name="title_activity_immediate_answer">ImmediateAnswer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_problem_tab">选择题</string>
+    <string name="confirmAnswer">----作答----</string>
+    <string name="Correct">回答正确！</string>
+    <string name="Wrong">回答错误！</string>
+    <string name="single">单题随手测</string>
+    <string name="twenty">二十题测试</string>
+    <string name="browseAll">浏览全部</string>
+    <string name="pleaseChoose">请选择试题的科目</string>
+    <string name="biology">生物</string>
+    <string name="history">历史</string>
+    <string name="infomatics">信息</string>
+    <string name="geography">地理</string>
+    <string name="reselectSubject">请选择科目</string>
+    <string name="title_activity_review_tab">知识点复习</string>
+    <string name="title_activity_history_review">HistoryReview</string>
+    <string name="title_activity_chemistry_review">ChemistryReview</string>
+    <string name="title_activity_biology_review">BiologyReview</string>
+    <string name="bShowDes">一直显示上半部分</string>
+    <string name="bShowAns">一直显示下半部分</string>
+    <string name="currentsubject">当前题库为：</string>
+    <string name="clickToShow">点击显示这一部分内容</string>
+
+</resources>

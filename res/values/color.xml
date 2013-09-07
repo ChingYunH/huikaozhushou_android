@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="gray">#7F7F7F</color>
+<color name="blue">#0000FF</color>
+<color name="white">#FFFFFF</color>
+<color name="red">#FF0000</color>
+<color name="yellow">#00FFFF</color>
+<color name="green">#00FF00</color>
+<color name="purple">#6B49C5</color>
+<color name="b_blue">#3A9ED3</color>
+<color name="pink">#E718AE</color>
+<color name="bg">#D5ECEC</color>
+<color name="black">#000000</color>
+<color name="m_title">#CBE0E7</color>
+<color name="datediff">#eac6e4</color>
+<color name="launch">#B9D4EC</color>
+<color name="transparent">#0000</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:background="@color/black" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:text="" android:textSize="30sp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<TextView android:text="@string/mSupportDetail1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="16sp" android:textColor="@color/white"
+			android:layout_centerHorizontal="true" android:layout_centerInParent="true"
+			android:layout_centerVertical="true"></TextView>
+	</RelativeLayout>
+	<TextView android:text="" android:textSize="15sp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<TextView android:text="@string/mSupportDetail2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="14sp" android:textColor="@color/white"
+			android:layout_centerHorizontal="true" android:layout_centerInParent="true"
+			android:layout_centerVertical="true"></TextView>
+	</RelativeLayout>
+	<TextView android:text="@string/mSupportDetail3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="14sp" android:textColor="@color/white"
+		android:autoLink="web"></TextView>
+	<TextView android:text="" android:textSize="30sp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

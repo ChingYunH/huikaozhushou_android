@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/t_Des"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_marginRight="15dp"
+		    android:gravity="center_vertical"
+		    android:textColor="@color/black"
+		    android:textSize="17sp"
+		    android:minHeight="130dp" />
+
+		<RadioGroup android:id="@+id/t_RGroup"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<RadioButton android:id="@+id/t_R1" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+			<RadioButton android:id="@+id/t_R2" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+			<RadioButton android:id="@+id/t_R3" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+			<RadioButton android:id="@+id/t_R4" android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:textColor="@color/black"
+				android:textSize="17sp" 
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+		</RadioGroup>
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+			    android:id="@+id/t_Next"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:text="@string/tNext"/>
+
+			<ImageView
+			    android:id="@+id/t_imageCheck"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:layout_marginLeft="30dp"
+			    android:src="@drawable/check" />
+			<ImageView
+			    android:id="@+id/t_imageCross"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:layout_marginLeft="30dp"
+			    android:src="@drawable/cross" />
+
+		</RelativeLayout>
+		<TextView android:text="" android:textSize="20sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:visibility="invisible"></TextView>
+	</LinearLayout>
+</ScrollView>
